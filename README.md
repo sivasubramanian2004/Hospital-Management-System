@@ -21,26 +21,6 @@ This project allows hospitals to manage patients, diagnoses, discharges, and bil
 - **Eclipse/IntelliJ/VS Code** (any Java IDE)
 
 ---
-
-## Project Structure (suggested)
-```
-HospitalPatientRecordSystem/
-├─ src/
-│  └─ microproject/
-│     └─ HospitalPatientRecordSystem.java
-├─ database/
-│  └─ schema.sql
-├─ lib/
-│  └─ mysql-connector-j-<version>.jar
-├─ screenshots/
-│  ├─ screenshot1.png
-│  ├─ screenshot2.png
-│  └─ screenshot3.png
-└─ README.md
-```
-
-> **Note:** If you’re using packages (e.g., `package microproject;`), keep the file under a matching folder (as above).
-
 ---
 
 ## Database Schema
@@ -120,10 +100,13 @@ java -cp out;lib\mysql-connector-j-8.4.0.jar microproject.HospitalPatientRecordS
 ## Screenshots
 
 ![Admit Patient](screenshots/screenshot1.png)
-![Diagnosis & Billing](screenshots/screenshot2.png)
-![MySQL Schema](screenshots/screenshot3.png)
 
-> Place your images in the `screenshots/` folder with these exact filenames, or update the paths above to match your filenames.
+
+![Diagnosis & Billing](screenshots/Screenshot2.png)
+
+
+![MySQL Schema](screenshots/Screenshot3.png)
+
 
 ---
 
@@ -133,8 +116,3 @@ java -cp out;lib\mysql-connector-j-8.4.0.jar microproject.HospitalPatientRecordS
 - Authentication & user roles (admin, doctor, billing staff)
 
 ---
-
-## Author
-**Your Name**  
-GitHub: https://github.com/your-username  
-Email: your.email@example.com
